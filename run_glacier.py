@@ -34,10 +34,10 @@ gl.new_dataset(name='bed', type='raster', filename=bedFilename, uncertainty=bedE
 
 # Surface
 print(' -> surface')
-gl.new_dataset(name='surface', type='raster', filename=surfFilename, uncertainty=surfError, nodataValues=[-9999.0, 0.0])
+gl.new_dataset(name='surface', type='raster', filename=surfFilename, uncertainty=surfError, nodataValues=-9999.0)
 
 # Geoid
-gl.new_dataset(name='Geoid', type='raster', filename=geoidFilename, nodataValues=-32767)
+gl.new_dataset(name='Geoid', type='raster', filename=geoidFilename, nodataValues=-9999.)
 sea_level = gl.datasets['Geoid'].get_z(0)
 
 # NOTE: Let's plot the glacier geometry for a quick check
