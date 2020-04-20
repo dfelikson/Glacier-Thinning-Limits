@@ -42,7 +42,6 @@ def uinterp1d(x, zu):
    return zuinterp   
 
 import sys
-sys.path.append("/home/student/denis/ScriptsAndUtilities/pythonModules")
 from moving_average import *
 from bilinear_interpolate import *
 
