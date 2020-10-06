@@ -1,5 +1,5 @@
 # Glacier-Thinning-Limits
-The Glacier Thinning Limits tool can be used to calculate the Peclet number along glacier flowlines, that describes how terminus-initiated thinning will evolve. The code here accompanies [Felikson et al. (2018)](https://doi.org/10.1038/ngeo2934).
+The Glacier Thinning Limits tool can be used to calculate the Peclet number along glacier flowlines, that describes how terminus-initiated thinning will evolve. The code here accompanies [Felikson et al. (2017)](https://doi.org/10.1038/ngeo2934).
 
 To get started, execute the run_glacier.py script. This requires the following Python packages:
 * os
